@@ -131,7 +131,7 @@
                 android:title="@string/device_model"
                 android:summary="@string/device_info_default"/>
 
-        <!-- Mod version -->
+        <!-- Glade Mod version -->
         <Preference android:key="mod_version"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/mod_version"
