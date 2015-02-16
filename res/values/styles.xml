@@ -16,6 +16,10 @@
 
 <resources>
 
+   <style name="Theme.ActionBar" parent="@android:style/Widget.Material.ActionBar">
+		<item name="android:background">@drawable/settings_header</item>
+   </style>
+
     <style name="info_label">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
