@@ -32,6 +32,9 @@
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
+   <!-- Kernel Auditor -->
+   <string name="performance_settings">Performance</string>
+
    <!-- Doze pulse (ambient display) options -->
     <string name="doze_overwrite_value_title">Overwrite value</string>
     <string name="doze_overwrite_value_summary">Allow to overwrite default value with user config</string>
