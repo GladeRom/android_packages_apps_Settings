@@ -103,7 +103,7 @@
         <item name="android:colorAccent">@color/theme_accent</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_material</item>
-        <item name="ic_wps">@drawable/ic_wps_drak</item>
+        <item name="ic_wps">@drawable/ic_wps_dark</item>
         <item name="wifi_signal">@drawable/wifi_signal_dark</item>
     </style>
 
@@ -114,7 +114,7 @@
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Material" />
 
     <style name="Theme.Settings" parent="Theme.SettingsBase">
-		<item name="android:colorBackground">@*android:color/material_blue_grey</item>
+		<item name="android:colorBackground">@*android:color/material_blue_grey_950</item>
         <item name="@*android:preferenceHeaderPanelStyle">@style/PreferenceHeaderPanelSinglePane</item>
         <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
         <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
@@ -181,7 +181,7 @@
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
         <!-- Explicitly override the background color. -->
-        <item name="android:colorBackground">@android:color/material_blue_grey</item>
+        <item name="android:colorBackground">@*android:color/material_blue_grey_950</item>
 
         <!-- Used by the ActionBar -->
         <item name="android:colorPrimary">@color/theme_primary</item>
@@ -218,7 +218,7 @@
         <item name="android:windowSoftInputMode">adjustResize</item>
 
         <!-- Explicitly override the background color. -->
-        <item name="android:colorBackground">@android:color/material_blue_grey</item>
+        <item name="android:colorBackground">@*android:color/material_blue_grey_950</item>
 
         <!-- Used by the ActionBar -->
         <item name="android:colorPrimary">@color/theme_primary</item>
