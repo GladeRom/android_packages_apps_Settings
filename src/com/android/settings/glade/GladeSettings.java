@@ -36,7 +36,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.settings.glade.StatusBarSettings;
+import com.android.settings.cyanogenmod.StatusBarSettings;
 import com.android.settings.glade.NavigationBarSettings;
 import com.android.settings.glade.About;
 
