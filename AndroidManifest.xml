@@ -1778,6 +1778,12 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
+        <!-- Glade Control Start -->
+
+        <activity android:name=".glade.GladeControl" />
+
+        <!-- Glade Control End -->
+
         <activity android:name=".CryptKeeperConfirm$Blank"
             android:immersive="true"
             android:launchMode="singleTop"

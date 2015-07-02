@@ -100,20 +100,12 @@
             android:id="@+id/device_section"
             android:title="@string/header_category_device" >
 
-        <!-- Sound -->
+        <!-- Glade Control -->
         <dashboard-tile
-                android:id="@+id/sound_settings"
-                android:title="@string/category_sounds"
-                android:fragment="com.android.settings.SoundSettings"
-                android:icon="@drawable/ic_settings_sounds"
-                />
-
-        <!-- Display & lights -->
-        <dashboard-tile
-                android:id="@+id/display_and_lights_settings"
-                android:title="@string/display_and_lights"
-                android:fragment="com.android.settings.DisplaySettings"
-                android:icon="@drawable/ic_settings_display"
+                android:id="@+id/glade_settings"
+                android:title="@string/glade_settings_title"
+                android:fragment="com.android.settings.glade.GladeSettings"
+                android:icon="@drawable/ic_glade_settings" 
                 />
 
         <!-- Themes -->
@@ -127,6 +119,22 @@
                 <categories android:name="cyanogenmod.intent.category.APP_THEMES" />
             </intent>
         </dashboard-tile>
+
+        <!-- Display & lights -->
+        <dashboard-tile
+                android:id="@+id/display_and_lights_settings"
+                android:title="@string/display_and_lights"
+                android:fragment="com.android.settings.DisplaySettings"
+                android:icon="@drawable/ic_settings_display"
+                />
+
+        <!-- Sound -->
+        <dashboard-tile
+                android:id="@+id/sound_settings"
+                android:title="@string/category_sounds"
+                android:fragment="com.android.settings.SoundSettings"
+                android:icon="@drawable/ic_settings_sounds"
+                />
 
         <!-- Notification manager -->
         <dashboard-tile

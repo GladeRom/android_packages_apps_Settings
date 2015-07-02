@@ -94,5 +94,20 @@
     <string name="shake_pulse_mode">Shake and pulse</string>
     <string name="pulse_only_mode">Pulse (default)</string>
 
+    <!-- Glade Control -->
+    <string name="glade_settings_title">Glade Control</string>
+    <string name="keywords_glade">glade</string>
+
+    <!-- About Glade -->
+    <string name="about_glade">About Glade</string>
+    <string name="glade_website_title">Glade Website</string>
+    <string name="glade_website_summary">Visit our website</string>
+    <string name="glade_source_title">Glade Github</string>
+    <string name="glade_source_summary">Visit our Sources</string>
+    <string name="glade_gerrit_title">Glade Gerrit Code Review</string>
+    <string name="glade_gerrit_summary">Visit our Gerrit Code Review</string>
+    <string name="glade_google_plus_title">Google+ Community</string>
+    <string name="glade_google_plus_summary">Visit our G+ Community for support and latest news</string>
+
 </resources>
 
