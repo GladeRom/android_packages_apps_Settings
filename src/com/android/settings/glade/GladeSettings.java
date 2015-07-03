@@ -37,6 +37,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.settings.cyanogenmod.StatusBarSettings;
+import com.android.settings.cyanogenmod.NotificationDrawerSettings;
 import com.android.settings.glade.NavigationBarSettings;
 import com.android.settings.glade.About;
 
@@ -94,9 +95,10 @@ public class GladeSettings extends SettingsPreferenceFragment {
 
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
-	    frags[0] = new StatusBarSettings();
-            frags[1] = new NavigationBarSettings();
-            frags[2] = new About();
+            frags[0] = new StatusBarSettings();
+            frags[1] = new NotificationDrawerSettings();
+            frags[2] = new NavigationBarSettings();
+            frags[3] = new About();
         }
 
         @Override
@@ -118,7 +120,8 @@ public class GladeSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.status_bar_title),
+                    getString(R.string.status_bar_title),
+                    getString(R.string.notification_drawer_title),
                     getString(R.string.navigation_bar_title),
                     getString(R.string.about_glade)};
         return titleString;
