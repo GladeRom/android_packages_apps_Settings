@@ -18,8 +18,18 @@
         android:title="@string/about_settings">
         
         <PreferenceScreen android:key="glade_logo"
-		android:enabled="false"
-		android:layout="@layout/glade_logo_row" /> 
+        android:enabled="false"
+        android:layout="@layout/glade_logo_row" /> 
+
+         <!-- Updater -->
+        <PreferenceScreen
+                android:key="update_settings"
+                android:title="@string/updater_title"
+                android:summary="@string/updater_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.glade.ota"
+                    android:targetClass="com.glade.center.OTACenter" />
+        </PreferenceScreen>
 
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
